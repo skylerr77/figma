@@ -1,0 +1,512 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+.arriba{
+    padding-bottom: 10%;
+}
+.dentro{
+    width: 100%;
+    height: 100%;
+    background-color: #3894ea6e;
+}
+.azul{
+    width: 100%;
+    height: 100%;
+    background-image: url('./fotos/james-harrison-vpOeXr5wmR4-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.a{
+    padding: 2%;
+
+}
+.namee{
+    width: 40%;
+    color: white;
+    border: solid white 1px;
+    background-color: rgba(128, 128, 128, 0.575);
+    border-radius: 5px;
+    text-align: center;
+    position: absolute;
+    left: 30%;
+    bottom: 90%;
+}
+.perfil{
+    background-image: url('./fotos/sergio-de-paula-c_GmwfHBDzk-unsplash.jpg');
+    border: 2px solid #CECECE;
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    margin: auto;
+    position: absolute;
+    top: 65px;
+    left: 50%;
+    transform: translate(-50%);
+    
+}
+#acercade{
+    color: #DD820D;
+    text-align: center;
+    padding: 9% 0% 3% 0;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+
+}
+.acercaa{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #5A5A5A;
+}
+.medio{
+    background-color: rgb(233, 232, 232); 
+}
+span{
+    color:blue;
+}
+p{
+    color: blue;
+    margin: auto;
+}
+p1{
+    color: gray;
+}
+#trabajo{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    display: grid;
+    place-items: center;
+    padding: 6%;
+    color: black;
+}
+.e,.b,.c,.d{
+    display: flex;
+}
+.img1,.img2,.img3,.img4,.img5,.img6,.img7,.img8{
+    padding: 10% 4%;
+    padding-top: 0;
+}
+.img11{
+    background-image: url('./fotos/tudor-baciu-vc3iVL_znJ8-unsplash.jpg');
+    background-size: cover;
+    width: 130px;
+    height: 130px;
+    background-position: center;
+    border-radius: 5px;
+}
+.img22{
+    background-image: url('./fotos/nubelson-fernandes-UcYBL5V0xWQ-unsplash.jpg');
+    background-size: cover;
+    width: 130px;
+    height: 130px;
+    background-position: center;
+    border-radius: 5px;
+}
+.img33{
+    background-image: url('./fotos/joan-gamell-ZS67i1HLllo-unsplash.jpg');
+    background-size: cover;
+    width: 130px;
+    height: 130px;
+    background-position: center;
+    border-radius: 5px;
+}
+.img44{
+    background-image: url('./fotos/fotis-fotopoulos-SyvsTmuuZyM-unsplash.jpg');
+    background-size: cover;
+    width: 130px;
+    height: 130px;
+    background-position: center;
+    border-radius: 5px;
+}
+.img55{
+    background-image: url('./fotos/florian-olivo-4hbJ-eymZ1o-unsplash.jpg');
+    background-size: cover;
+    width: 130px;
+    height: 130px;
+    background-position: center;
+    border-radius: 5px;
+}
+.img66{
+    background-image: url('./fotos/christopher-gower-m_HRfLhgABo-unsplash.jpg');
+    background-size: cover;
+    width: 130px;
+    height: 130px;
+    background-position: center;
+    border-radius: 5px;
+}
+.img77{
+    background-image: url('./fotos/ben-kolde-bs2Ba7t69mM-unsplash.jpg');
+    background-size: cover;
+    width: 130px;
+    height: 130px;
+    background-position: center;
+    border-radius: 5px;
+}
+.img88{
+    background-image: url('./fotos/altumcode-oZ61KFUQsus-unsplash.jpg');
+    background-size: cover;
+    width: 130px;
+    height: 130px;
+    background-position: center;
+    border-radius: 5px;
+}
+.texto{
+    display: grid;
+    place-items: center;
+}
+.abajo{
+    padding: 10% 0;
+}
+form{
+    background-color:rgb(231, 231, 231);
+    padding: 3% 8%;
+}
+input,textarea{
+    width: 100%;
+    border: 2px solid #D9D9D9;
+    background-color:rgb(231, 231, 231) ;
+    padding: 3%;
+    margin: 2%;
+
+}
+.button{
+    width: 150px;
+    height: 35px;
+    background: #3895EA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3% 65px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+#contactos{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    display: grid;
+    place-items: center;
+    padding: 5%;
+    color: black;
+}
+.social{
+    padding: 6%;
+    background-color: #1E2B38;
+    display: flex;
+    justify-content: space-between;
+
+}
+.twitter{
+    background-image: url('./fotos/twitter.svg');
+    width: 18px;
+    height: 15px;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.youtube{
+    background-image: url('./fotos/youtube.svg');
+    width: 25px;
+    height: 15px;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.facebook{
+    background-image: url('./fotos/facebook-f.svg');
+    width: 25px;
+    height: 15px;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+}
+.ig{
+    background-image: url('./fotos/instagram.svg');
+    width: 25px;
+    height: 15px;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.git{
+    background-image: url('./fotos/github.svg');
+    width: 25px;
+    height: 15px;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+}
+@media screen and (min-width:600px){
+    .perfil{
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        margin: 25px 0;
+    }
+    .namee{
+        width: 40%;
+        padding: 2%;
+        color: white;
+        border: solid white 1px;
+        background-color: rgba(128, 128, 128, 0.575);
+        border-radius: 5px;
+        text-align: center;
+        position: absolute;
+        left: 30%;
+        bottom: 90%;
+        display: grid;
+    }
+    .img1,.img2,.img3,.img4,.img5,.img6,.img7,.img8{
+        padding: 10% 13%;
+        padding-top: 0;
+    }
+    .button{
+        margin-left: 35%;
+    }
+
+}
+@media (min-width:1440px){
+    .medio{
+        height: 900px;
+    }
+    .links{
+        height: 300px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .perfil{
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        margin: 12% 0;  
+    }
+    .namee{
+        width: 40%;
+        height: 20%;
+        color: white;
+        border: solid white 1px;
+        background-color: rgba(128, 128, 128, 0.575);
+        border-radius: 5px;
+        text-align: center;
+        position: absolute;
+        left: 30%;
+        top: 10%;
+        display: grid;
+        padding: 1%;
+        font-size: 50px;
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+    }
+    #acercade{
+        color: #DD820D;
+        text-align: center;
+        padding: 6% 0% 3% 0;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 25px;
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+    
+    }
+    .img1{
+        position: absolute;
+    }
+    .img2{
+        position: absolute;
+        left: 20%;
+    }
+    .img3{
+        position: absolute;
+        left: 40%;
+    }
+    .img4{
+        position: absolute;
+        left: 60%;
+    }
+    .img5{
+        position: absolute;
+        bottom: 40%;
+        top: 160%;
+    }
+    .img6{
+        position: absolute;
+        left: 20%;
+        top: 160%;
+    }
+    .img7{
+        position: absolute;
+        left: 40%;
+        top: 160%;
+    }
+    .img8{
+        position: absolute;
+        left: 60%;
+        top: 160%;
+
+    }
+    .img11{
+        background-image: url('./fotos/tudor-baciu-vc3iVL_znJ8-unsplash.jpg');
+        background-size: cover;
+        width: 250px;
+        height: 250px;
+        background-position: center;
+        border-radius: 5px;
+        
+    }
+    .img22{
+        background-image: url('./fotos/nubelson-fernandes-UcYBL5V0xWQ-unsplash.jpg');
+        background-size: cover;
+        width: 250px;
+        height: 250px;
+        background-position: center;
+        border-radius: 5px;
+    }
+    .img33{
+        background-image: url('./fotos/joan-gamell-ZS67i1HLllo-unsplash.jpg');
+        background-size: cover;
+        width: 250px;
+        height: 250px;
+        background-position: center;
+        border-radius: 5px;
+    }
+    .img44{
+        background-image: url('./fotos/fotis-fotopoulos-SyvsTmuuZyM-unsplash.jpg');
+        background-size: cover;
+        width: 250px;
+        height: 250px;
+        background-position: center;
+        border-radius: 5px;
+
+    }
+    .img55{
+        background-image: url('./fotos/florian-olivo-4hbJ-eymZ1o-unsplash.jpg');
+        background-size: cover;
+        width: 250px;
+        height: 250px;
+        background-position: center;
+        border-radius: 5px;
+    }
+    .img66{
+        background-image: url('./fotos/christopher-gower-m_HRfLhgABo-unsplash.jpg');
+        background-size: cover;
+        width: 250px;
+        height: 250px;
+        background-position: center;
+        border-radius: 5px;
+    }
+    .img77{
+        background-image: url('./fotos/ben-kolde-bs2Ba7t69mM-unsplash.jpg');
+        background-size: cover;
+        width: 250px;
+        height: 250px;
+        background-position: center;
+        border-radius: 5px;
+    }
+    .img88{
+        background-image: url('./fotos/altumcode-oZ61KFUQsus-unsplash.jpg');
+        background-size: cover;
+        width: 250px;
+        height: 250px;
+        background-position: center;
+        border-radius: 5px;
+    }
+    form{
+        margin: 0 20%;
+    }
+    .twitter{
+        background-image: url('./fotos/twitter.svg');
+        width: 38px;
+        height: 35px;
+        background-repeat: no-repeat;
+        border-radius: 5px;
+    }
+    .youtube{
+        background-image: url('./fotos/youtube.svg');
+        width: 45px;
+        height: 35px;
+        background-repeat: no-repeat;
+        border-radius: 5px;
+    }
+    .facebook{
+        background-image: url('./fotos/facebook-f.svg');
+        width: 45px;
+        height: 35px;
+        border-radius: 5px;
+        background-repeat: no-repeat;
+    }
+    .ig{
+        background-image: url('./fotos/instagram.svg');
+        width: 45px;
+        height: 35px;
+        background-repeat: no-repeat;
+        border-radius: 5px;
+    }
+    .git{
+        background-image: url('./fotos/github.svg');
+        width: 45px;
+        height: 35px;
+        border-radius: 5px;
+        background-repeat: no-repeat;
+    }
+    #contactos{
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 50px;
+        line-height: 25px;
+    }
+    #trabajo{
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 50px;
+        line-height: 25px;
+    }
+    input{
+        width: 45%;
+        border: 2px solid #D9D9D9;
+        background-color:rgb(231, 231, 231) ;
+        padding: 3%;
+        margin: 2%;
+        color: black;
+    }
+    textarea{
+        color: black;
+    }
+    .acercaa{
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-size: 25px;
+    }
+    .social{
+        padding: 3%;
+    }
+    
+}
